@@ -1,0 +1,18 @@
+{
+    "ads": [
+        {
+            "path": "/res/video/123.mp4",
+            "attr": {
+                "age": {
+                    "min": 10,
+                    "max": 25
+                },
+                "gender": "male",
+                "restriction": {
+                    "gender": true,
+                    "age": true
+                }
+            }
+        }
+    ]
+}

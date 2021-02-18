@@ -1,9 +1,7 @@
 const mqtt = require('mqtt');
 
 const client = mqtt.connect(process.env.MQTT_URL, {
-    port: process.env.MQTT_PORT,
-    username: process.env.MQTT_USERNAME,
-    password: process.env.MQTT_PASSWORD
+    port: process.env.MQTT_PORT
 });
 
 let isConnected = false;
